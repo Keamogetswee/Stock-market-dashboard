@@ -1,56 +1,58 @@
-# Stock Market Insights Dashboard
+# 📊 Stock Market Dashboard (AAPL, MSFT, TSLA)
 
-## Overview
-This project is a **Business Intelligence dashboard** built in **Power BI** to visualize stock market data for multiple companies over time. The dashboard provides insights into price trends, performance comparisons, and daily changes, demonstrating SQL querying, ETL, and data visualization skills.
-
----
-
-## Tools & Technologies
-- **Power BI Desktop** – dashboard creation and visualization  
-- **SQL / MySQL** – data querying and preparation  
-- **Excel / CSV files** – raw data sources  
-- **ETL Concepts** – data cleaning, merging, and transformation  
+An interactive **Tableau dashboard** analyzing stock closing prices and trading volumes for Apple (AAPL), Microsoft (MSFT), and Tesla (TSLA).  
+This project showcases how BI dashboards can highlight **trends, KPIs, and market comparisons** in an easy-to-digest format.
 
 ---
 
-## Features
-- **Interactive Line Charts** – track stock price trends over time  
-- **Bar Charts** – compare average monthly closing prices between companies  
-- **KPI Cards** – highlight highest and lowest stock prices  
-- **Slicers / Filters** – filter data by company or date range  
-- **Calculated Fields** – daily percentage changes to show performance trends  
+## 🚀 Features
+
+- 📈 **Closing Price Trends** → Visualizes stock price movements over time.  
+- 📊 **Trading Volume Comparison** → Compares trading activity across companies.  
+- 🔍 **Interactive Filters** → Filter by company and time period.  
+- 📌 **Summary Metrics** → Latest closing price, highest volume day, and more.  
 
 ---
 
-## Data Sources
-- Stock price data downloaded from **Yahoo Finance** (Microsoft, Apple, Tesla)  
-- Sample CSV files included in the repository  
+## 📂 Data
+
+- Source: Historical stock data (CSV files)  
+- Files included:
+  - `data/aapl.csv`
+  - `data/msft.csv`
+  - `data/tsla.csv`
+
+Each file contains:
+- `Date` → Trading day  
+- `Close` → Closing stock price  
+- `Volume` → Number of shares traded 
 
 ---
 
-## How to Use
-1. Open the `.pbix` file in **Power BI Desktop**.  
-2. Load the included CSV files.  
-3. Explore the dashboard by selecting different companies and date ranges.  
+## 📸 Preview
+
+![Dashboard Preview](screenshots/dashboard.png)
 
 ---
 
-## Key Skills Demonstrated
-- SQL querying and data extraction  
-- Data cleaning, merging, and transformation (ETL)  
-- Dashboard design and visualization in Power BI  
-- Analytical thinking and trend analysis  
-- Interactive BI reporting  
+## ⚡ Tech Stack
+
+- [Tableau Public]
+- GitHub for version control & sharing  
+- CSV data (Apple, Microsoft, Tesla stock history)
 
 ---
 
-## Screenshots
+## 💡 Insights
 
+- Tesla shows **highest volatility** in stock price.  
+- Apple maintains **steady volume**, with peaks around product events.  
+- Microsoft’s trading volume spikes coincide with **earnings announcements**.  
 
 ---
 
 ## Author
-**Keamogetswe Moseki 
+**Keamogetswe Moseki**
 
 
 
